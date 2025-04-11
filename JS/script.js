@@ -68,7 +68,7 @@ function startGame() {
     const pipeRect = pipe.getBoundingClientRect();
     const marioRect = mario.getBoundingClientRect();
 
-    const padding = 20; // reduz a área da hitbox
+    const padding = 20;
 
     const collision =
       pipeRect.left + padding < marioRect.right - padding &&
@@ -97,7 +97,7 @@ function startGame() {
       scoreEl.innerText = `Score: ${score}`;
 
       if (score % 100 === 0 && score !== 0) {
-        pipeSpeed = Math.max(pipeSpeed - 100, 600);
+        pipeSpeed = Math.max(pipeSpeed - 100, 200);
 
         const currentPipePosition = pipe.offsetLeft;
         if (currentPipePosition < 0) {
