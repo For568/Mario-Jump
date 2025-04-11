@@ -43,3 +43,4 @@ Sim! O jogo funciona tanto em desktop quanto em dispositivos móveis com toque.
 
 ## 📂 Estrutura de pastas
 
+📁 Mario-Jump/ ├── index.html ├── style.css ├── script.js └── imagens/ ├── mario.gif ├── pipe.png ├── game-over.png └── clouds.png
